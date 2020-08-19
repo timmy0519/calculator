@@ -1,0 +1,108 @@
+main{   
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+body{
+    background: rgb(254, 255, 225);
+    margin: auto;
+}
+.button{
+    background: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.r_button{
+    flex-basis: 15%;
+    border-radius: 7pt;
+    background-color: rgb(247, 233, 215);
+    box-sizing: border-box;
+    border: 1pt solid black;
+}
+.number{
+    font-style: oblique;
+}
+.l_button{
+    flex-basis: 30%;
+    height: 20%;
+    box-sizing: border-box;
+    margin: 1pt;
+    border: 1pt dashed black;
+    border-radius: 7pt;
+    background: blanchedalmond;
+}
+#calculator{
+    background: rgb(238, 255, 210);
+    box-shadow: 0 0 1em 1em rgb(248, 209, 209);
+    border-radius: 5pt;
+    height: 200pt;
+    width: 200pt;
+    margin : auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#displaySmallText{
+    
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0.2em;
+    font-size: 0.8em;
+    text-align: left;
+    width: 20%;
+}
+#displayText{
+    display: table-cell;
+    text-align: end;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-bottom: 0.2em; */
+    margin-right: 0.25em;
+    width: 70%;
+    justify-self: end;
+}
+#display{
+    background: rgba(41, 45, 54, 0.424);
+    border-radius: 5pt;
+    margin-top: 15pt;
+    height: 30pt;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#buttons{
+    width: 80%;
+    display: flex;
+    height: 100%;
+    align-content: flex-start;
+}
+.op{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ops{
+    width: 20pt;
+    flex-basis: 30%;
+    margin-top: 10pt;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#numbers{
+    /* margin: 10px; */
+    margin-top: 10pt;
+    width: 100px;
+    margin-right: 10pt;
+    flex-basis: 70%;
+    display: flex;
+    align-items: baseline;
+    align-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+}
